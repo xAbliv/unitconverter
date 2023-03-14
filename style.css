@@ -1,0 +1,53 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 30px;
+}
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-top: 20px;
+}
+
+input[type="number"], select {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 2px solid #ccc;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+select {
+	padding: 5px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+button {
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: #008CBA;
+	color: #fff;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+button:hover {
+	background-color: #006d8e;
+}
+
+.result {
+	margin-top: 20px;
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+}
